@@ -20,7 +20,7 @@ export const Home = () => {
   const [selectedPlace, setSelectedPlace] = useState(null);
 
 
-  const Gapi='AIzaSyCGTltYYHBCJZFgyH_aQThdjxSyGQ1EQx8';
+  const Gapi='googleMapsApi';
   const handleProfilePress = () => {
     navigation.navigate('Profile')
   };
